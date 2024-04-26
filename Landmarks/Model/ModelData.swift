@@ -14,8 +14,6 @@ class ModelData {
     var hikes: [Hike] = load("hikeData.json")
 }
 
-var landmarks: [Landmark] = load("landmarkData.json")
-
 
 // Fungsi bertugas read pada file json
 func load<T: Decodable>(_ filename: String) -> T {
