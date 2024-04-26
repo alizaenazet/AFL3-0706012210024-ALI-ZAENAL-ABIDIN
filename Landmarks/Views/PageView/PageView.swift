@@ -9,8 +9,9 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var pages: [Page]
+    @State private var currentPage = 2
     var body: some View {
-        PageViewController(pages: pages)
+        PageViewController(pages: pages,currentPage: $currentPage)
             .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
