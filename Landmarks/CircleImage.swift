@@ -11,7 +11,12 @@ struct CircleImage: View {
     var image: Image
     
     var body: some View {
-        image
+        Image("turtlerock")
+            .clipShape(Circle())
+            .overlay {
+                Circle().stroke(.pink, lineWidth: 4)
+            }
+            .shadow(color: .red, radius: 14)
     }
 }
 
