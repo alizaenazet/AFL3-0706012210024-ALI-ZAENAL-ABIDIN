@@ -18,7 +18,7 @@ class ModelData {
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarks,
-            by: { $0.category.rawValue }
+            by: {$0.category.rawValue}
         )
     }
 }
