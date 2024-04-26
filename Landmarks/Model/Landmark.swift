@@ -15,6 +15,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var park: String
     var description: String
+    var isFavorite: Bool
     
     // Solusi guna menyertakan sebuah component pada model
     private var imageName: String
