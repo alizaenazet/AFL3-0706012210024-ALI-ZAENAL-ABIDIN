@@ -8,7 +8,12 @@
 import Foundation
 
 // variabel akses data pada file json `landmarkData`
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
+}
+
 
 // Fungsi bertugas read pada file json
 func load<T: Decodable>(_ filename: String) -> T {
