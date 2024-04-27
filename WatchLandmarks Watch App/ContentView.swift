@@ -6,10 +6,19 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 struct ContentView: View {
     var body: some View {
-       LandmarkList()
+
+        LandmarkList()
+            // task in main thread untuk meminta izin notifikasi secara asinkron
+            .task {
+                let center = UNUserNotificationCenter.current()
+                _ = try? await center.requestAuthorization(
+                    options: [.alert, .sound, .badge]
+                )
+            }
     }
 }
 
