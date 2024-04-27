@@ -36,7 +36,9 @@ struct LandmarkList: View {
             }
             .animation(.default, value: filteredLandmarks)
             .navigationTitle("Landmarks")
+            #if os(macOS)
             .frame(minWidth: 300)
+            #endif
         } detail: {
             Text("Select a Landmark")
         }
