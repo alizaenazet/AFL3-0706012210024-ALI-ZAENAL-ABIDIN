@@ -21,6 +21,7 @@
 		EE014A522BDCC9B2007D4836 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F352BDB54FB0095FE6C /* Hike.swift */; };
 		EE014A532BDCC9B2007D4836 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F392BDB5A880095FE6C /* FavoriteButton.swift */; };
 		EE014A542BDCCA9A007D4836 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F252BDABB500095FE6C /* LandmarkDetail.swift */; };
+		EE014A562BDCCB90007D4836 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE014A552BDCCB90007D4836 /* LandmarkDetail.swift */; };
 		EE180F132BDA680A0095FE6C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F122BDA680A0095FE6C /* CircleImage.swift */; };
 		EE180F152BDA68F40095FE6C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F142BDA68F30095FE6C /* MapView.swift */; };
 		EE180F172BDA6A5F0095FE6C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = EE180F162BDA6A5F0095FE6C /* landmarkData.json */; };
@@ -62,6 +63,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE014A552BDCCB90007D4836 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		EE180F122BDA680A0095FE6C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		EE180F142BDA68F30095FE6C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EE180F162BDA6A5F0095FE6C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				EED2236B2BDC276E00DA3FE9 /* Assets.xcassets */,
 				EED223702BDC276E00DA3FE9 /* MacLandmarks.entitlements */,
 				EED2236D2BDC276E00DA3FE9 /* Preview Content */,
+				EE014A552BDCCB90007D4836 /* LandmarkDetail.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				EED2236A2BDC276B00DA3FE9 /* ContentView.swift in Sources */,
 				EE014A4A2BDCC9B2007D4836 /* CircleImage.swift in Sources */,
 				EE014A532BDCC9B2007D4836 /* FavoriteButton.swift in Sources */,
+				EE014A562BDCCB90007D4836 /* LandmarkDetail.swift in Sources */,
 				EE014A512BDCC9B2007D4836 /* LandmarksApp.swift in Sources */,
 				EE014A522BDCC9B2007D4836 /* Hike.swift in Sources */,
 				EE014A4D2BDCC9B2007D4836 /* LandmarkRow.swift in Sources */,
