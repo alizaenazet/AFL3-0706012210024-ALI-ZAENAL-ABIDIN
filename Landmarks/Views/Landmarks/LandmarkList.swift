@@ -20,6 +20,7 @@ struct LandmarkList: View {
      
     @Environment(ModelData.self) var modelData
     @State private var showFavoritesOnly = false
+    @State private var selectedLandmark: Landmark?
     
     // Patokan category yang ditampilkan
     // default seluruh category ditampilkan
@@ -38,10 +39,15 @@ struct LandmarkList: View {
            return showFavoritesOnly ? "Favorite \(title)" : title
        }
     
+    var index: Int? {
+        modelData.landmarks.firstIndex(where: { $0.id == selectedLandmark?.id })
+    }
+    
     var body: some View {
-
+        @Bindable var modelData = modelData
+        
         NavigationSplitView {
-            List {
+            List(selection: $selectedLandmark) {
                 
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
@@ -49,6 +55,7 @@ struct LandmarkList: View {
                     } label: {
                         LandmarkRow(landmark: landmark)
                     }
+                    .tag(landmark)
                 }
             }
             .animation(.default, value: filteredLandmarks)
@@ -74,6 +81,7 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
+        .focusedValue(\.selectedLandmark, $modelData.landmarks[index ?? 0])
     }
 }
 

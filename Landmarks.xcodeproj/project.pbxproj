@@ -64,6 +64,8 @@
 		EE23D7AB2BDD0C40002ED63A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE180F232BDABA9E0095FE6C /* LandmarkList.swift */; };
 		EE406F782BDB817100D392E6 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE406F772BDB817100D392E6 /* CategoryRow.swift */; };
 		EE406F7A2BDB818900D392E6 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE406F792BDB818900D392E6 /* CategoryItem.swift */; };
+		EE6F8FB62BDD221F00B5A616 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F8FB52BDD221E00B5A616 /* LandmarkCommands.swift */; };
+		EE6F8FB72BDD221F00B5A616 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6F8FB52BDD221E00B5A616 /* LandmarkCommands.swift */; };
 		EED2234E2BDBB67500DA3FE9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2234D2BDBB67500DA3FE9 /* Profile.swift */; };
 		EED223512BDBB71300DA3FE9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED223502BDBB71300DA3FE9 /* ProfileHost.swift */; };
 		EED223532BDBB75500DA3FE9 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED223522BDBB75500DA3FE9 /* ProfileSummary.swift */; };
@@ -139,6 +141,7 @@
 		EE23D7A92BDD0C12002ED63A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		EE406F772BDB817100D392E6 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		EE406F792BDB818900D392E6 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		EE6F8FB52BDD221E00B5A616 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
 		EED2234D2BDBB67500DA3FE9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EED223502BDBB71300DA3FE9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		EED223522BDBB75500DA3FE9 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -325,6 +328,7 @@
 				EED223702BDC276E00DA3FE9 /* MacLandmarks.entitlements */,
 				EED2236D2BDC276E00DA3FE9 /* Preview Content */,
 				EE014A552BDCCB90007D4836 /* LandmarkDetail.swift */,
+				EE6F8FB52BDD221E00B5A616 /* LandmarkCommands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -544,6 +548,7 @@
 				EE014A4A2BDCC9B2007D4836 /* CircleImage.swift in Sources */,
 				EE23D7A62BDD0912002ED63A /* ContentView.swift in Sources */,
 				EE014A532BDCC9B2007D4836 /* FavoriteButton.swift in Sources */,
+				EE6F8FB72BDD221F00B5A616 /* LandmarkCommands.swift in Sources */,
 				EE014A562BDCCB90007D4836 /* LandmarkDetail.swift in Sources */,
 				EE014A512BDCC9B2007D4836 /* LandmarksApp.swift in Sources */,
 				EE014A522BDCC9B2007D4836 /* Hike.swift in Sources */,
@@ -561,6 +566,7 @@
 			files = (
 				EE406F782BDB817100D392E6 /* CategoryRow.swift in Sources */,
 				EED2234E2BDBB67500DA3FE9 /* Profile.swift in Sources */,
+				EE6F8FB62BDD221F00B5A616 /* LandmarkCommands.swift in Sources */,
 				EE180F362BDB54FB0095FE6C /* Hike.swift in Sources */,
 				EE180F462BDB66420095FE6C /* CategoryHome.swift in Sources */,
 				EED2235C2BDC028600DA3FE9 /* FeatureCard.swift in Sources */,
